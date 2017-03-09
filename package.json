@@ -1,0 +1,32 @@
+{
+  "name": "documentdbexport",
+  "version": "1.0.0",
+  "description": "Export DocumentDB data to JSON files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "documentdbexport": "bin/documentdbexport.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glynnbird/documentdbexport.git"
+  },
+  "keywords": [
+    "documentdb",
+    "json",
+    "export"
+  ],
+  "author": "Glynn Bird <glynn.bird@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/glynnbird/documentdbexport/issues"
+  },
+  "homepage": "https://github.com/glynnbird/documentdbexport#readme",
+  "dependencies": {
+    "async": "^2.1.5",
+    "commander": "^2.9.0",
+    "documentdb": "^1.10.2"
+  }
+}
