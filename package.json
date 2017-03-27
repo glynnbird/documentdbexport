@@ -1,6 +1,6 @@
 {
   "name": "documentdbexport",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Export DocumentDB data to JSON files",
   "main": "index.js",
   "scripts": {
